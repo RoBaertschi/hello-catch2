@@ -1,0 +1,13 @@
+: 1
+name: hello-catch2
+version: 0.1.0-a.0.z
+summary: hello-catch2 C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/hello-catch2
+email: rtmbaertschi007@gmail.com
+#build-error-email: rtmbaertschi007@gmail.com
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+depends: catch2 ^3.0.1
+#depends: libhello ^1.0.0
