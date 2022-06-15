@@ -1,6 +1,6 @@
 : 1
 name: hello-catch2
-version: 0.1.0-a.1
+version: 0.1.0-a.1.z
 summary: hello-catch2 C++ executable
 license: other: proprietary ; Not free/open source.
 description-file: README.md
