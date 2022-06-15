@@ -1,0 +1,6 @@
+hello-catch2
+.cache/
+# Testscript output directory (can be symlink).
+#
+test-hello-catch2
+tests

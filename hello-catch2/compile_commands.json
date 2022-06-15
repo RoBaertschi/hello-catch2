@@ -1,0 +1,43 @@
+[
+ {
+  "directory": "/Users/robin.baertschi/projects/hello-catch2/hello-catch2",
+  "arguments": [
+   "g++-11",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/hello-catch2",
+   "-I/Users/robin.baertschi/projects/hello-catch2",
+   "-std=c++2a",
+   "-idirafter",
+   "/usr/local/include",
+   "-o",
+   "../../hello-catch2-gcc/hello-catch2/hello-catch2/src/hello-catch2.o",
+   "-c",
+   "-x",
+   "c++",
+   "/Users/robin.baertschi/projects/hello-catch2/hello-catch2/src/hello-catch2.cpp"
+  ],
+  "file": "/Users/robin.baertschi/projects/hello-catch2/hello-catch2/src/hello-catch2.cpp"
+ },
+ {
+  "directory": "/Users/robin.baertschi/projects/hello-catch2/hello-catch2",
+  "arguments": [
+   "g++-11",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/hello-catch2",
+   "-I/Users/robin.baertschi/projects/hello-catch2",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/catch2-3.0.1/src",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/catch2-3.0.1/src",
+   "-DCATCH2_BUILD_STATIC_WITH_MAIN",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/catch2-3.0.1/src",
+   "-I/Users/robin.baertschi/projects/hello-catch2-gcc/catch2-3.0.1/src",
+   "-std=c++2a",
+   "-idirafter",
+   "/usr/local/include",
+   "-o",
+   "../../hello-catch2-gcc/hello-catch2/hello-catch2/test/test.o",
+   "-c",
+   "-x",
+   "c++",
+   "/Users/robin.baertschi/projects/hello-catch2/hello-catch2/test/test.cpp"
+  ],
+  "file": "/Users/robin.baertschi/projects/hello-catch2/hello-catch2/test/test.cpp"
+ }
+]

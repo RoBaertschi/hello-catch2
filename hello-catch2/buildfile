@@ -1,0 +1,12 @@
+libs =
+catch2_libs =
+import catch2_libs += catch2%liba{catch2wmain}
+import catch2_libs += catch2%liba{catch2}
+
+#import libs += libhello%lib{hello}
+
+./: exe{hello-catch2}: {hxx ixx txx cxx}{src/**} $libs testscript
+
+./: exe{tests}: {cxx}{test/**} $libs $catch2_libs
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
